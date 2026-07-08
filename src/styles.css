@@ -276,6 +276,24 @@
   transform: translateY(0);
 }
 
+/* Markdown styling inside the AI chat */
+.prose-chat p {
+  margin: 0.35rem 0;
+}
+.prose-chat ul,
+.prose-chat ol {
+  margin: 0.35rem 0;
+  padding-left: 1.1rem;
+  list-style: disc;
+}
+.prose-chat strong {
+  font-weight: 700;
+}
+.prose-chat a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
 /* Print styles for the resume page */
 @media print {
   .no-print {
@@ -285,3 +303,4 @@
     background: white;
   }
 }
+
