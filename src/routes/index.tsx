@@ -1,24 +1,93 @@
+import { About } from "@/components/portfolio/About";
+import { Achievements } from "@/components/portfolio/Achievements";
+import { AIAssistant } from "@/components/portfolio/AIAssistant";
+import { Certifications } from "@/components/portfolio/Certifications";
+import { Contact } from "@/components/portfolio/Contact";
+import { ExperienceSection } from "@/components/portfolio/Experience";
+import { Footer } from "@/components/portfolio/Footer";
+import { GitHubStats } from "@/components/portfolio/GitHubStats";
+import { Hero } from "@/components/portfolio/Hero";
+import { Navbar } from "@/components/portfolio/Navbar";
+import { Projects } from "@/components/portfolio/Projects";
+import { ResumeSection } from "@/components/portfolio/ResumeSection";
+import { Skills } from "@/components/portfolio/Skills";
+import { Testimonials } from "@/components/portfolio/Testimonials";
+import { useRevealObserver } from "@/hooks/use-reveal";
 import { createFileRoute } from "@tanstack/react-router";
+import { Toaster } from "sonner";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: "Sinesipho Matam — Software Engineer & Cloud Engineer" },
+      {
+        name: "description",
+        content:
+          "Portfolio of Sinesipho Matam: Software Engineer, Cloud Engineer, Cybersecurity enthusiast and Co-Founder of Ascend Digital. Secure, scalable, AI-powered web apps.",
+      },
+      { property: "og:title", content: "Sinesipho Matam — Software Engineer & Cloud Engineer" },
+      {
+        property: "og:description",
+        content:
+          "Secure, scalable, AI-powered web applications, cloud solutions and digital experiences that help businesses grow.",
+      },
+      { property: "og:type", content: "profile" },
+      { property: "og:url", content: "/" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [{ rel: "canonical", href: "/" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: "Sinesipho Matam",
+          jobTitle: "Software Engineer",
+          description:
+            "Software Engineer, Cloud Engineer, IT Support Specialist, Cybersecurity Enthusiast and Co-Founder of Ascend Digital.",
+          url: "https://github.com/SneG21",
+          sameAs: ["https://github.com/SneG21"],
+          knowsAbout: [
+            "Software Engineering",
+            "Cloud Computing",
+            "Cybersecurity",
+            "Python",
+            "Django",
+            "AWS",
+            "AI Web Development",
+          ],
+          worksFor: { "@type": "Organization", name: "Ascend Digital" },
+        }),
+      },
+    ],
+  }),
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
+  useRevealObserver();
+
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <main>
+        <h1 className="sr-only">Sinesipho Matam — Software Engineer & Cloud Engineer Portfolio</h1>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Certifications />
+        <ExperienceSection />
+        <GitHubStats />
+        <Achievements />
+        <ResumeSection />
+        <Testimonials />
+        <Contact />
+      </main>
+      <Footer />
+      <AIAssistant />
+      <Toaster position="top-center" richColors />
     </div>
   );
 }
