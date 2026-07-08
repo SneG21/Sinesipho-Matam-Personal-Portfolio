@@ -81,18 +81,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Portfolio of Sinesipho Matam: Software Engineer, Cloud Engineer, Cybersecurity enthusiast and Co-Founder of Ascend Digital.",
+          "Portfolio of Sinesipho Matam: Software Engineer, Cloud Engineer, Cybersecurity enthusiast and Co-Founder of Ascend Digital. Secure, scalable, AI-powered web apps.",
       },
       { name: "author", content: "Sinesipho Matam" },
       { property: "og:title", content: "Sinesipho Matam — Software Engineer & Cloud Engineer" },
       {
         property: "og:description",
         content:
-          "Secure, scalable, AI-powered web applications, cloud solutions and digital experiences.",
+          "Portfolio of Sinesipho Matam: Software Engineer, Cloud Engineer, Cybersecurity enthusiast and Co-Founder of Ascend Digital. Secure, scalable, AI-powered web apps.",
       },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Sinesipho Matam Portfolio" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Sinesipho Matam — Software Engineer & Cloud Engineer" },
+      { name: "twitter:description", content: "Portfolio of Sinesipho Matam: Software Engineer, Cloud Engineer, Cybersecurity enthusiast and Co-Founder of Ascend Digital. Secure, scalable, AI-powered web apps." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1061cfe6-8b70-484c-bda6-c46519ade99f/id-preview-6c16c3d8--93007719-4bea-406a-bcef-218511a08812.lovable.app-1783520734571.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1061cfe6-8b70-484c-bda6-c46519ade99f/id-preview-6c16c3d8--93007719-4bea-406a-bcef-218511a08812.lovable.app-1783520734571.png" },
     ],
     links: [
       {

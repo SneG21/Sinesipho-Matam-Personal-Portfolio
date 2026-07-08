@@ -30,7 +30,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Secure, scalable, AI-powered web applications, cloud solutions and digital experiences that help businesses grow.",
+          "Portfolio of Sinesipho Matam: Software Engineer, Cloud Engineer, Cybersecurity enthusiast and Co-Founder of Ascend Digital. Secure, scalable, AI-powered web apps.",
       },
       { property: "og:type", content: "profile" },
       { property: "og:url", content: "/" },
