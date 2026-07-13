@@ -91,7 +91,7 @@ export function Hero() {
             <p className="text-xs font-semibold">🛡️ Security+ Certified</p>
           </div>
           <div className="glass animate-float-slow absolute -top-4 -right-4 rounded-2xl px-4 py-2.5 shadow-soft">
-            <p className="text-xs font-semibold">☁️ AWS Cloud</p>
+            <p className="text-xs font-semibold">💻 Full-Stack Dev</p>
           </div>
         </div>
       </div>
