@@ -191,12 +191,6 @@ export const FEATURED_PROJECTS: FeaturedProject[] = [
       "A booking platform that manages appointments, customer bookings, authentication, scheduling, payments, and notifications.",
     tech: ["Django", "PostgreSQL", "Tailwind CSS", "REST APIs"],
   },
-  {
-    name: "Ascend Digital Website",
-    description:
-      "Corporate website for Ascend Digital showcasing AI-powered digital solutions, chatbot integration, onboarding automation, portfolio, and digital marketing services.",
-    tech: ["Lovable", "AI", "HTML", "CSS", "JavaScript"],
-  },
 ];
 
 export interface Experience {
