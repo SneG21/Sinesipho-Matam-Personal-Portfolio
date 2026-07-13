@@ -23,7 +23,7 @@ interface Repo {
   fork: boolean;
 }
 
-const FILTERS = ["All", "Python", "Django", "AWS", "Docker", "JavaScript", "HTML", "CSS", "Full Stack"];
+const FILTERS = ["All", "Python", "Django", "Docker", "JavaScript", "HTML", "CSS", "Full Stack"];
 const SORTS = ["Featured", "Newest", "Recently Updated", "Most Popular"] as const;
 
 const LANG_COLORS: Record<string, string> = {
