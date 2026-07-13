@@ -1,11 +1,10 @@
 import { useInView } from "@/hooks/use-reveal";
 import { SKILL_GROUPS } from "@/lib/portfolio-data";
-import { Cloud, Code2, Database, Layers, Sparkles, Terminal } from "lucide-react";
+import { Code2, Database, Layers, Sparkles, Terminal } from "lucide-react";
 
 const ICONS: Record<string, typeof Code2> = {
   code: Code2,
   layers: Layers,
-  cloud: Cloud,
   database: Database,
   terminal: Terminal,
   sparkles: Sparkles,
@@ -63,8 +62,7 @@ export function Skills() {
             My <span className="text-gradient">Toolbox</span>
           </h2>
           <p className="mt-3 text-muted-foreground">
-            The languages, frameworks, cloud services and tools I use to ship secure, scalable
-            products.
+            The languages, frameworks and tools I use to ship secure, scalable products.
           </p>
         </div>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

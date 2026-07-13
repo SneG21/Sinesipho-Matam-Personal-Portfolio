@@ -6,7 +6,6 @@ import { toast } from "sonner";
 const SERVICES = [
   "AI Website Development",
   "Web Application Development",
-  "Cloud Solutions (AWS)",
   "Business Automation",
   "Website Hosting & Maintenance",
   "Technical Consulting",

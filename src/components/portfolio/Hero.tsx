@@ -20,7 +20,7 @@ export function Hero() {
 
       <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[minmax(0,1fr)_auto]">
         <div className="animate-fade-up">
-          <span className="chip mb-5">Available for projects · Co-Founder @ Ascend Digital</span>
+          <span className="chip mb-5">Available for freelance & full-time opportunities</span>
           <h1 className="text-4xl leading-tight font-bold sm:text-5xl lg:text-6xl">
             Hi, I'm <span className="text-gradient">Sinesipho Matam</span>
           </h1>
@@ -34,8 +34,8 @@ export function Hero() {
             </span>
           </p>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            I design and develop secure, scalable, AI-powered web applications, cloud solutions,
-            and digital experiences that help businesses grow.
+            I design and develop secure, scalable, AI-powered web applications and digital
+            experiences that help businesses grow.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -80,7 +80,7 @@ export function Hero() {
           <div className="glass relative overflow-hidden rounded-[2rem] p-2 shadow-elevated">
             <img
               src={PORTRAIT_URL}
-              alt="Portrait of Sinesipho Matam, Software Engineer and Cloud Engineer"
+              alt="Portrait of Sinesipho Matam, Software Engineer"
               width={380}
               height={380}
               fetchPriority="high"
@@ -91,7 +91,7 @@ export function Hero() {
             <p className="text-xs font-semibold">🛡️ Security+ Certified</p>
           </div>
           <div className="glass animate-float-slow absolute -top-4 -right-4 rounded-2xl px-4 py-2.5 shadow-soft">
-            <p className="text-xs font-semibold">☁️ AWS Cloud</p>
+            <p className="text-xs font-semibold">💻 Full-Stack Dev</p>
           </div>
         </div>
       </div>

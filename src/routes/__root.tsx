@@ -77,24 +77,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Sinesipho Matam — Software Engineer & Cloud Engineer" },
+      { title: "Sinesipho Matam — Software Engineer" },
       {
         name: "description",
         content:
-          "Portfolio of Sinesipho Matam: Software Engineer, Cloud Engineer, Cybersecurity enthusiast and Co-Founder of Ascend Digital. Secure, scalable, AI-powered web apps.",
+          "Portfolio of Sinesipho Matam: Software Engineer, IT Support Specialist and Cybersecurity enthusiast. Secure, scalable, AI-powered web apps.",
       },
       { name: "author", content: "Sinesipho Matam" },
-      { property: "og:title", content: "Sinesipho Matam — Software Engineer & Cloud Engineer" },
+      { property: "og:title", content: "Sinesipho Matam — Software Engineer" },
       {
         property: "og:description",
         content:
-          "Portfolio of Sinesipho Matam: Software Engineer, Cloud Engineer, Cybersecurity enthusiast and Co-Founder of Ascend Digital. Secure, scalable, AI-powered web apps.",
+          "Portfolio of Sinesipho Matam: Software Engineer, IT Support Specialist and Cybersecurity enthusiast. Secure, scalable, AI-powered web apps.",
       },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Sinesipho Matam Portfolio" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Sinesipho Matam — Software Engineer & Cloud Engineer" },
-      { name: "twitter:description", content: "Portfolio of Sinesipho Matam: Software Engineer, Cloud Engineer, Cybersecurity enthusiast and Co-Founder of Ascend Digital. Secure, scalable, AI-powered web apps." },
+      { name: "twitter:title", content: "Sinesipho Matam — Software Engineer" },
+      { name: "twitter:description", content: "Portfolio of Sinesipho Matam: Software Engineer, IT Support Specialist and Cybersecurity enthusiast. Secure, scalable, AI-powered web apps." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1061cfe6-8b70-484c-bda6-c46519ade99f/id-preview-6c16c3d8--93007719-4bea-406a-bcef-218511a08812.lovable.app-1783520734571.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1061cfe6-8b70-484c-bda6-c46519ade99f/id-preview-6c16c3d8--93007719-4bea-406a-bcef-218511a08812.lovable.app-1783520734571.png" },
     ],

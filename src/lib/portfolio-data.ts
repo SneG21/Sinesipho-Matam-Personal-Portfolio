@@ -11,16 +11,13 @@ export const SOCIALS = {
   linkedin: "https://www.linkedin.com/in/sinesipho-matam",
   email: "mailto:sinesipho.matam@outlook.com",
   whatsapp: "https://wa.me/27000000000",
-  instagram: "https://instagram.com/ascenddigital",
-  facebook: "https://facebook.com/ascenddigital",
 };
 
 export const TYPING_ROLES = [
   "Software Engineer",
-  "Cloud Engineer",
   "IT Support Specialist",
   "Cybersecurity Enthusiast",
-  "Co-Founder of Ascend Digital",
+  "Full-Stack Developer",
 ];
 
 export const SKILL_GROUPS: {
@@ -47,17 +44,6 @@ export const SKILL_GROUPS: {
       { name: "Django REST Framework", level: 88 },
       { name: "Tailwind CSS", level: 87 },
       { name: "Bootstrap", level: 85 },
-    ],
-  },
-  {
-    title: "Cloud (AWS)",
-    icon: "cloud",
-    skills: [
-      { name: "S3 · IAM · EC2", level: 80 },
-      { name: "Lambda · CloudFormation", level: 75 },
-      { name: "Route53 · CloudFront", level: 74 },
-      { name: "RDS · ECS · ECR", level: 72 },
-      { name: "Elastic Beanstalk", level: 76 },
     ],
   },
   {
@@ -122,10 +108,9 @@ export const CERTIFICATIONS: Certification[] = [
       "IAM",
       "Network Security",
       "Cryptography",
-      "Cloud Security",
     ],
     description:
-      "Comprehensive security fundamentals: threat management, identity & access management, network security, cryptography and cloud security.",
+      "Comprehensive security fundamentals: threat management, identity & access management, network security and cryptography.",
     verifyUrl: "https://alison.com/verify/cda80ab06a",
   },
   {
@@ -163,9 +148,6 @@ export const CERTIFICATIONS: Certification[] = [
 ];
 
 export const STUDYING = [
-  "AWS Certified Cloud Practitioner",
-  "AWS Certified Developer – Associate",
-  "AWS Certified Solutions Architect – Associate",
   "CompTIA Network+",
 ];
 
@@ -203,12 +185,12 @@ export interface Experience {
 
 export const EXPERIENCE: Experience[] = [
   {
-    role: "Co-Founder & Lead Web Developer",
-    company: "Ascend Digital",
+    role: "Freelance Software Engineer",
+    company: "Independent",
     period: "2025 — Present",
     current: true,
     points: [
-      "AI website development & web applications",
+      "AI-powered website & web application development",
       "Hosting, maintenance & business automation",
       "Technical consulting for growing businesses",
     ],
@@ -221,16 +203,6 @@ export const EXPERIENCE: Experience[] = [
       "Hardware support & software installation",
       "Troubleshooting & network support",
       "User assistance & system maintenance",
-    ],
-  },
-  {
-    role: "Casino Supervisor",
-    company: "Hemingways Casino",
-    period: "Before 2024",
-    points: [
-      "Leadership & team management",
-      "Operations & customer service",
-      "Problem solving under pressure",
     ],
   },
 ];

@@ -6,7 +6,7 @@ const PLACEHOLDERS = [
     quote:
       "Your feedback could be here. I'd love to build something great together — and let the results speak for themselves.",
     name: "Future Client",
-    role: "Ascend Digital Partner",
+    role: "Future Partner",
   },
   {
     type: "LinkedIn Recommendation",

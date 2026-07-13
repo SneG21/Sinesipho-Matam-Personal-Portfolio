@@ -21,7 +21,7 @@ export const Route = createFileRoute("/resume")({
       {
         name: "description",
         content:
-          "Resume of Sinesipho Matam: Software Engineer, Cloud Engineer and Co-Founder of Ascend Digital. View, download or print.",
+          "Resume of Sinesipho Matam: Software Engineer and Cybersecurity enthusiast. View, download or print.",
       },
       { property: "og:title", content: "Resume — Sinesipho Matam" },
       { property: "og:url", content: "/resume" },
@@ -61,7 +61,7 @@ function ResumePage() {
           <header className="border-b-2 border-primary pb-6">
             <h1 className="text-3xl font-bold">Sinesipho Matam</h1>
             <p className="mt-1 font-semibold text-primary">
-              Software Engineer · Cloud Engineer · Co-Founder of Ascend Digital
+              Software Engineer · Cybersecurity Enthusiast
             </p>
             <p className="mt-2 text-sm text-muted-foreground">
               github.com/SneG21 · South Africa
@@ -72,10 +72,9 @@ function ResumePage() {
             <h2 className="text-lg font-bold text-primary">Profile</h2>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
               Software Engineer with an IT Support foundation, specialising in secure, scalable,
-              AI-powered web applications and cloud solutions. HyperionDev Software Engineering
-              graduate, CompTIA Security+, ITIL 4 and CompTIA A+ certified, currently pursuing
-              AWS certifications. Co-Founder & Lead Web Developer at Ascend Digital, helping
-              businesses grow through AI websites, automation and consulting.
+              AI-powered web applications. HyperionDev Software Engineering graduate, CompTIA
+              Security+, ITIL 4 and CompTIA A+ certified. Helping businesses grow through AI
+              websites, automation and consulting.
             </p>
           </section>
 
