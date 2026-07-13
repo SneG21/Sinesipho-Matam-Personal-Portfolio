@@ -1,11 +1,10 @@
 import { useInView } from "@/hooks/use-reveal";
 import { SKILL_GROUPS } from "@/lib/portfolio-data";
-import { Cloud, Code2, Database, Layers, Sparkles, Terminal } from "lucide-react";
+import { Code2, Database, Layers, Sparkles, Terminal } from "lucide-react";
 
 const ICONS: Record<string, typeof Code2> = {
   code: Code2,
   layers: Layers,
-  cloud: Cloud,
   database: Database,
   terminal: Terminal,
   sparkles: Sparkles,
