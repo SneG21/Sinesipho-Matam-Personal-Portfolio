@@ -1,8 +1,7 @@
-import { Brain, Cloud, Code2, GraduationCap, Shield, Workflow } from "lucide-react";
+import { Brain, Code2, GraduationCap, Shield, Workflow } from "lucide-react";
 
 const PASSIONS = [
   { icon: Code2, label: "Software Engineering" },
-  { icon: Cloud, label: "Cloud Computing" },
   { icon: Shield, label: "Cybersecurity" },
   { icon: Brain, label: "AI-Powered Web Development" },
   { icon: Workflow, label: "Business Automation" },
@@ -24,7 +23,6 @@ const TECH = [
   "Git",
   "GitHub",
   "Linux",
-  "AWS",
   "REST APIs",
   "JWT Authentication",
 ];
@@ -51,15 +49,13 @@ export function About() {
             <p>
               I completed HyperionDev's Software Engineering Bootcamp and transformed that
               foundation into full-stack expertise — designing Django applications, REST APIs and
-              PostgreSQL-backed systems, containerised with Docker and deployed to AWS. Along the
-              way I earned CompTIA Security+, ITIL 4 Foundation and CompTIA A+ certifications,
-              bringing a security-first, service-minded approach to everything I build.
+              PostgreSQL-backed systems, containerised with Docker. Along the way I earned
+              CompTIA Security+, ITIL 4 Foundation and CompTIA A+ certifications, bringing a
+              security-first, service-minded approach to everything I build.
             </p>
             <p>
-              Today, as Co-Founder & Lead Web Developer of{" "}
-              <span className="font-semibold text-foreground">Ascend Digital</span>, I help
-              businesses grow with AI-powered websites, web applications, automation and cloud
-              solutions — combining engineering rigour with real-world business insight.
+              Today I focus on helping businesses grow with AI-powered websites, web applications
+              and automation — combining engineering rigour with real-world business insight.
             </p>
           </div>
 
