@@ -62,8 +62,7 @@ export function Skills() {
             My <span className="text-gradient">Toolbox</span>
           </h2>
           <p className="mt-3 text-muted-foreground">
-            The languages, frameworks, cloud services and tools I use to ship secure, scalable
-            products.
+            The languages, frameworks and tools I use to ship secure, scalable products.
           </p>
         </div>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
