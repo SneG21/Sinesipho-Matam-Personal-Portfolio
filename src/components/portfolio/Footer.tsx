@@ -1,13 +1,11 @@
 import { NAV_LINKS, SOCIALS } from "@/lib/portfolio-data";
-import { ArrowUp, Facebook, Github, Instagram, Linkedin, Mail, MessageCircle } from "lucide-react";
+import { ArrowUp, Github, Linkedin, Mail, MessageCircle } from "lucide-react";
 
 const SOCIAL_ICONS = [
   { icon: Github, href: SOCIALS.github, label: "GitHub" },
   { icon: Linkedin, href: SOCIALS.linkedin, label: "LinkedIn" },
   { icon: Mail, href: SOCIALS.email, label: "Email" },
   { icon: MessageCircle, href: SOCIALS.whatsapp, label: "WhatsApp" },
-  { icon: Instagram, href: SOCIALS.instagram, label: "Instagram" },
-  { icon: Facebook, href: SOCIALS.facebook, label: "Facebook" },
 ];
 
 export function Footer() {
@@ -20,8 +18,8 @@ export function Footer() {
               Sinesipho<span className="text-gradient">.dev</span>
             </p>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted-foreground">
-              Software Engineer · Cloud Engineer · Cybersecurity Enthusiast · Co-Founder of
-              Ascend Digital. Building secure, scalable, AI-powered solutions.
+              Software Engineer · IT Support Specialist · Cybersecurity Enthusiast. Building
+              secure, scalable, AI-powered solutions.
             </p>
           </div>
           <nav aria-label="Quick links">
