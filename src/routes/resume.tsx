@@ -21,7 +21,7 @@ export const Route = createFileRoute("/resume")({
       {
         name: "description",
         content:
-          "Resume of Sinesipho Matam: Software Engineer, Cloud Engineer and Co-Founder of Ascend Digital. View, download or print.",
+          "Resume of Sinesipho Matam: Software Engineer and Cybersecurity enthusiast. View, download or print.",
       },
       { property: "og:title", content: "Resume — Sinesipho Matam" },
       { property: "og:url", content: "/resume" },
