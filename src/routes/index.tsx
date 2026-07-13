@@ -20,17 +20,17 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Sinesipho Matam — Software Engineer & Cloud Engineer" },
+      { title: "Sinesipho Matam — Software Engineer" },
       {
         name: "description",
         content:
-          "Portfolio of Sinesipho Matam: Software Engineer, Cloud Engineer, Cybersecurity enthusiast and Co-Founder of Ascend Digital. Secure, scalable, AI-powered web apps.",
+          "Portfolio of Sinesipho Matam: Software Engineer, IT Support Specialist and Cybersecurity enthusiast. Secure, scalable, AI-powered web apps.",
       },
-      { property: "og:title", content: "Sinesipho Matam — Software Engineer & Cloud Engineer" },
+      { property: "og:title", content: "Sinesipho Matam — Software Engineer" },
       {
         property: "og:description",
         content:
-          "Portfolio of Sinesipho Matam: Software Engineer, Cloud Engineer, Cybersecurity enthusiast and Co-Founder of Ascend Digital. Secure, scalable, AI-powered web apps.",
+          "Portfolio of Sinesipho Matam: Software Engineer, IT Support Specialist and Cybersecurity enthusiast. Secure, scalable, AI-powered web apps.",
       },
       { property: "og:type", content: "profile" },
       { property: "og:url", content: "/" },
@@ -46,19 +46,16 @@ export const Route = createFileRoute("/")({
           name: "Sinesipho Matam",
           jobTitle: "Software Engineer",
           description:
-            "Software Engineer, Cloud Engineer, IT Support Specialist, Cybersecurity Enthusiast and Co-Founder of Ascend Digital.",
+            "Software Engineer, IT Support Specialist and Cybersecurity Enthusiast.",
           url: "https://github.com/SneG21",
           sameAs: ["https://github.com/SneG21"],
           knowsAbout: [
             "Software Engineering",
-            "Cloud Computing",
             "Cybersecurity",
             "Python",
             "Django",
-            "AWS",
             "AI Web Development",
           ],
-          worksFor: { "@type": "Organization", name: "Ascend Digital" },
         }),
       },
     ],
