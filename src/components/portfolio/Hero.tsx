@@ -20,7 +20,7 @@ export function Hero() {
 
       <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[minmax(0,1fr)_auto]">
         <div className="animate-fade-up">
-          <span className="chip mb-5">Available for projects · Co-Founder @ Ascend Digital</span>
+          <span className="chip mb-5">Available for freelance & full-time opportunities</span>
           <h1 className="text-4xl leading-tight font-bold sm:text-5xl lg:text-6xl">
             Hi, I'm <span className="text-gradient">Sinesipho Matam</span>
           </h1>
