@@ -80,7 +80,7 @@ export function Hero() {
           <div className="glass relative overflow-hidden rounded-[2rem] p-2 shadow-elevated">
             <img
               src={PORTRAIT_URL}
-              alt="Portrait of Sinesipho Matam, Software Engineer and Cloud Engineer"
+              alt="Portrait of Sinesipho Matam, Software Engineer"
               width={380}
               height={380}
               fetchPriority="high"
