@@ -34,8 +34,8 @@ export function Hero() {
             </span>
           </p>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            I design and develop secure, scalable, AI-powered web applications, cloud solutions,
-            and digital experiences that help businesses grow.
+            I design and develop secure, scalable, AI-powered web applications and digital
+            experiences that help businesses grow.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
