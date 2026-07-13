@@ -69,7 +69,7 @@ function Index() {
     <div className="min-h-screen bg-background">
       <Navbar />
       <main>
-        <h1 className="sr-only">Sinesipho Matam — Software Engineer & Cloud Engineer Portfolio</h1>
+        <h1 className="sr-only">Sinesipho Matam — Software Engineer Portfolio</h1>
         <Hero />
         <About />
         <Skills />
